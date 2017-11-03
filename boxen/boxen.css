@@ -1,0 +1,47 @@
+/* basics */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: yellow;
+}
+
+/* specific divs */
+#margin {
+	margin: 10%;
+	margin-bottom: 0;
+}
+
+#border {
+	border: thick black solid;
+}
+
+#padding {
+	padding: 5%;	
+	background-color: red;
+}
+
+#inhalt {
+	background-color: white;
+	text-align: center;
+	font-family: Calibri;
+}
+
+#inhalt2 {
+	margin: 8%;
+	padding: 8%;
+	background-color: red;
+	border: thick black solid;
+}
+
+p#raute {
+	position: absolute;
+	top: 86%;	
+	margin-left: 8%;
+	padding: 0 3%;
+	background-color: white;
+	font-family: Calibri;
+	border: thick black solid;
+}

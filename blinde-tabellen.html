@@ -1,0 +1,64 @@
+<html>
+	<head><Title>MEDT Tabellen</Title></head>
+	
+	<body style="background-color:#CF5841">
+		<div align="center" style="border:thin solid black;background-color:white">
+			<h1 style="font-style:Calibri">Medientechnik 25</h1>
+			<h2 style="font-style:Calibri">Blinde Tabellen</h2>
+		</div>
+		
+		<table align="center" border="1" width="600px" height="600px" style="background-color:white;border:thin solid black" cellspacing="10" cellpadding="10">
+		<caption align="top"><b>Tabellenbezeichnung<b></caption>
+<!--Tabellendefinition-->		
+		<colgroup width="25%" height="15% span="4">
+<!--
+			<col width="150px">
+			<col width="100px">
+			<col width="50px">
+-->			
+		</colgroup>
+			<thead style="background-color:yellow">
+			<tr> 
+			<!--Tabellenreihe-->
+				<th>Zeile 1, Spalte 1</th> <th colspan="2">Zeile 1, Spalte 2+3</th><th>Zeile 1, Spalte 4</th> 
+				<!--Tabellenzelle-->
+			</tr>
+			</thead>
+			<tfoot style="background-color:yellow">
+			<tr>
+				<td style="background-color:yellow">Zeile 2, Spalte 1</td> <td style="background-color:yellow" rowspan="2">Zeile 2+3, Spalte 2</td> <td style="background-color:yellow">Zeile 2</td> <td style="background-color:yellow">Zeile 2</td>
+			</tr>
+			
+			<tr>
+				<td>Zeile 3, Spalte 1</td> <td style="background-color:yellow">Zeile 3, Spalte 3</td> <td style="background-color:yellow">Zeile 3, Spalte 4</td>
+			</tr>
+			</tfoot>
+			
+		</table>
+		
+		<table align="center" border="1" width="600px" height="600px" style="background-color:white;border:thin solid black" cellspacing="10" cellpadding="10">
+		<caption align="top"><b>Col- and Rowspan<b></caption>
+<!--Tabellendefinition-->		
+		<colgroup width="25%" height="15% span="4">
+<!--
+			<col width="150px">
+			<col width="100px">
+			<col width="50px">
+-->			
+		</colgroup>
+			<tr> 
+			<!--Tabellenreihe-->
+				<th style="background-color:yellow">Zeile 1, Spalte 1</th><th style="background-color:yellow">Zeile 1, Spalte 2+3</th><th style="background-color:yellow">Zeile 1, Spalte 2+3</th><th style="background-color:yellow" rowspan="2">Zeile 1, Spalte 4</th> 
+				<!--Tabellenzelle-->
+			</tr>
+			<tr>
+				<td style="background-color:yellow">Zeile 2, Spalte 1</td> <td style="background-color:yellow">Zeile 2, Spalte 2</td> <td style="background-color:yellow">Zeile 2, Spalte 3</td>
+			</tr>
+			
+			<tr>
+				<td style="background-color:yellow" colspan="4">Zeile 3</td>
+			</tr>
+			
+		</table>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+html, body {
+	margin: 0%;
+	padding: 0%;
+	background-color: #bad5ad;
+}
+
+h2 {
+	font-family: Calibri;
+	text-align: center;
+}
+
+p {
+	font-family: Calibri;
+}
+
+p#border {
+	border: thin black dotted;
+	text-align: center;
+}
+
+#box1 {
+	margin: 0 30%;
+	padding: 0 1em;
+	background-color: #76c572;
+	border: thick black outset;
+}
